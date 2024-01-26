@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProjetFinalECommerceModelStoreContainer" CdmEntityContainer="ProjetFinalECommerceEntities">
+    <EntitySetMapping Name="Articles">
+      <EntityTypeMapping TypeName="ProjetFinalECommerceModel.Articles">
+        <MappingFragment StoreEntitySet="Articles">
+          <ScalarProperty Name="idArticle" ColumnName="idArticle" />
+          <ScalarProperty Name="article" ColumnName="article" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="categorie" ColumnName="categorie" />
+          <ScalarProperty Name="prix" ColumnName="prix" />
+          <ScalarProperty Name="image" ColumnName="image" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Commandes">
+      <EntityTypeMapping TypeName="ProjetFinalECommerceModel.Commandes">
+        <MappingFragment StoreEntitySet="Commandes">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="idClient" ColumnName="idClient" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="prixTotal" ColumnName="prixTotal" />
+          <ScalarProperty Name="infos" ColumnName="infos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Utilisateur">
+      <EntityTypeMapping TypeName="ProjetFinalECommerceModel.Utilisateur">
+        <MappingFragment StoreEntitySet="Utilisateur">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="prenom" ColumnName="prenom" />
+          <ScalarProperty Name="adresse" ColumnName="adresse" />
+          <ScalarProperty Name="date_naissance" ColumnName="date_naissance" />
+          <ScalarProperty Name="isAdmin" ColumnName="isAdmin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
