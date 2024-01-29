@@ -1,7 +1,51 @@
-﻿
+﻿@model List<AJCSPORT.Models.Article>
 @{
     ViewBag.Title = "Articles";
 }
 
 <h2>Articles</h2>
+<div>
+    <form method="post" action="/Admin/ArticlesAdd">
+        <input type="number" name="id">
+        <input type="text" name="nom">
+        <input type="text" name="description">
+        <input type="text" name="categorie">
+        <input type="number" name="prix">
+        <input type="text" name="image">
+        <button type="submit">AJOUTER UN ARTICLE</button>
+    </form>
+</div>
+<hr />
+<h2>LISTE DES ARTICLES</h2>
+@foreach (var x in Model)
+{
+    <div>
+        <form method="post" action="/Admin/ArticlesDelete">
+            <input type="number" name="id" value="@x.Id" readonly>
+            <a>@x.Nom</a>
+            <a>@x.Description</a>
+            <a>@x.Categorie</a>
+            <a>@x.Prix</a>
+            <a>@x.Image</a>
+            <button type="submit" formaction="/Admin/Articles">MODIFIER</button>
+            <button type="submit">SUPPRIMER</button>
+        </form>
+        @if(ViewBag.article == x.Id)
+        {
+            <br />
+            <form method="post" action="/Admin/ArticlesUpdate">
+                <input type="number" name="id" value="@x.Id" readonly />
+                <input type="text" name="nom" value="@x.Nom" />
+                <input type="text" name="description" value="@x.Description" />
+                <input type="text" name="categorie" value="@x.Categorie" />
+                <input type="number" name="prix" value="@x.Prix" />
+                <input type="text" name="image" value="@x.Image" />
+                <button type="submit">SAUVEGARDER LES MODIFICATIONS</button>
+
+            </form>
+            <br />
+        }
+    </div>
+}
+
 

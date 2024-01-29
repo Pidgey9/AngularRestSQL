@@ -1,7 +1,55 @@
-﻿
+﻿@model List<AJCSPORT.Models.User>
 @{
     ViewBag.Title = "Clients";
 }
 
 <h2>Clients</h2>
+<div>
+    <form method="post" action="/Admin/ClientsAdd">
+        <input type="text" name="id">
+        <input type="text" name="password">
+        <input type="text" name="nom">
+        <input type="text" name="prenom">
+        <input type="text" name="adresse">
+        <input type="date" name="naissance">
+        <input type="text" name="email">
+        <button type="submit">AJOUTER UN UILISATEUR</button>
+    </form>
+</div>
+<hr />
+<h2>LISTE DES UTILISATEURS</h2>
+@foreach (var x in Model)
+{
+    <div>
+        <form method="post" action="/Admin/ClientsDelete">
+            <input type="number" name="id" value="@x.Id" readonly>
+            <a>@x.Password</a>
+            <a>@x.Nom</a>
+            <a>@x.Prenom</a>
+            <a>@x.Adresse</a>
+            <a>@x.Naissance</a>
+            <a>@x.Email</a>
+            <a>@x.IsAdmin</a>
+            <button type="submit" formaction="/Admin/Clients">MODIFIER</button>
+            <button type="submit">SUPPRIMER</button>
+        </form>
+        @if (ViewBag.user == x.Id)
+        {
+            <br />
+            <form method="post" action="/Admin/ClientsUpdate">
+                <input type="number" name="id" value="@x.Id" readonly />
+                <input type="text" name="password" value="@x.Password" />
+                <input type="text" name="nom" value="@x.Nom" />
+                <input type="text" name="prenom" value="@x.Prenom" />
+                <input type="number" name="adresse" value="@x.Adresse" />
+                <input type="date" name="naissance" value="@x.Naissance" />
+                <input type="text" name="email" value="@x.Email" />
+                <input type="text" name="isAdmin" value="@x.IsAdmin" />
+                <button type="submit">SAUVEGARDER LES MODIFICATIONS</button>
+
+            </form>
+            <br />
+        }
+    </div>
+}
 
