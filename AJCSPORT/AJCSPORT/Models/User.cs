@@ -25,7 +25,7 @@ namespace AJCSPORT.Models
             this.naissance = naissance;
             this.email = email;
         }
-        public User(string id, string password, string nom, string prenom, string adresse, DateTime naissance, string email, bool isAdmin)
+        public User(string id, string password, string nom, string prenom, string adresse, DateTime naissance, bool isAdmin, string email)
         {
             this.id = id;
             this.password = password;

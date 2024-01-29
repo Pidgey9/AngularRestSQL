@@ -12,7 +12,7 @@ namespace AJCSPORT.Models
         string connectionString = @"Data Source=DESKTOP-F1NS20D;Initial Catalog=ProjetFinalECommerce;Integrated Security=True";
         public bool Delete(string id)
         {
-            string sql = "delete users where id = '" + id + "'";
+            string sql = "delete Utilisateurs where login = '" + id + "'";
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = new SqlCommand(sql, connection);
 
@@ -26,8 +26,8 @@ namespace AJCSPORT.Models
         }
         public bool Update(User u)
         {
-            string sql = "update users set password=@password,nom=@nom,prenom=@prenom," +
-                "adresse=@adresse,date_naissance=@date_naissance,email=@email,isAdmin=@isAdmin where id=@id ";
+            string sql = "update Utilisateurs set password=@password,nom=@nom,prenom=@prenom," +
+                "adresse=@adresse,date_naissance=@date_naissance,e_mail=@email,isAdmin=@isAdmin where login=@id ";
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = connection.CreateCommand();
             command.CommandText = sql;
@@ -52,7 +52,7 @@ namespace AJCSPORT.Models
         }
         public bool Insert(User u)
         {
-            string sql = "insert into users values(@id,@password,@nom,@prenom,@adresse,@date_naissance,@email,0)";
+            string sql = "insert into Utilisateurs values(@id,@password,@nom,@prenom,@adresse,@date_naissance,0,@email)";
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = connection.CreateCommand();
             command.CommandText = sql;
@@ -77,7 +77,7 @@ namespace AJCSPORT.Models
         public List<User> SelectAll()
         {
             List<User> liste = new List<User>();
-            string sql = "select * from users";
+            string sql = "select * from Utilisateurs";
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = new SqlCommand(sql, connection);
 
@@ -88,7 +88,7 @@ namespace AJCSPORT.Models
             while (reader.Read())
             {
                 User u = new User(reader.GetString(0), reader.GetString(1), reader.GetString(2), reader.GetString(3),
-                    reader.GetString(4), reader.GetDateTime(5), reader.GetString(6), reader.GetBoolean(7));
+                    reader.GetString(4), reader.GetDateTime(5), reader.GetBoolean(6), reader.GetString(7));
                 liste.Add(u);
 
             }
@@ -100,7 +100,7 @@ namespace AJCSPORT.Models
         public User SelectById(int id)
         {
             User u = null;
-            string sql = "select * from user where id='" + id + "'";
+            string sql = "select * from Utilisateurs where login='" + id + "'";
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = new SqlCommand(sql, connection);
 
@@ -111,7 +111,7 @@ namespace AJCSPORT.Models
             if (reader.Read())
             {
                 u = new User(reader.GetString(0), reader.GetString(1), reader.GetString(2), reader.GetString(3),
-                    reader.GetString(4), reader.GetDateTime(5), reader.GetString(6), reader.GetBoolean(7));
+                    reader.GetString(4), reader.GetDateTime(5), reader.GetBoolean(6), reader.GetString(7));
 
             }
             connection.Close();

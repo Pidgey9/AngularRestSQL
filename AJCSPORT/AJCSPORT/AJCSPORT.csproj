@@ -245,6 +245,12 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Images\blackhoodie.jpg" />
+    <Content Include="Images\chaussuresfemmes.jpg" />
+    <Content Include="Images\pantalons.jpg" />
+    <Content Include="Images\shoes.jpg" />
+    <Content Include="Images\sweater.jpg" />
+    <Content Include="Images\sweatpant.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
@@ -296,6 +302,7 @@
     <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Admin\Articles.cshtml" />
     <Content Include="Views\Admin\Clients.cshtml" />
+    <Content Include="Views\Admin\Commandes.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

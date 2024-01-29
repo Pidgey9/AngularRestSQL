@@ -67,16 +67,26 @@ namespace AJCSPORT.Controllers
         {
             new DaoUser().Insert(u);
             return RedirectToAction("Clients");
+
         }
         public ActionResult ClientsUpdate(User u)
         {
             new DaoUser().Update(u);
             return RedirectToAction("Clients");
+
         }
         public ActionResult ClientsDelete(string id)
         {
             new DaoUser().Delete(id);
             return RedirectToAction("Clients");
         }
+        //page Commandes
+        public ActionResult Commandes(string id)
+        {
+            List<Commande> liste = new List<Commande>();
+            liste = new DaoCommande().SelectByClient(id);
+            return View(liste);
+        }
+
     }
 }

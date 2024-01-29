@@ -12,7 +12,7 @@ namespace AJCSPORT.Models
         string connectionString = @"Data Source=DESKTOP-F1NS20D;Initial Catalog=ProjetFinalECommerce;Integrated Security=True";
         public bool Delete(int id)
         {
-            string sql = "delete commandes where id = " + id;
+            string sql = "delete CSommande where id = " + id;
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = new SqlCommand(sql, connection);
 
@@ -47,7 +47,7 @@ namespace AJCSPORT.Models
         //}
         public bool Insert(Commande c)
         {
-            string sql = "insert into commandes values(@idClient,@date,@prixTotal,@infos)";
+            string sql = "insert into Commande values(@idClient,@date,@prixTotal,@infos)";
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = connection.CreateCommand();
             command.CommandText = sql;
@@ -69,7 +69,7 @@ namespace AJCSPORT.Models
         public List<Commande> SelectAll()
         {
             List<Commande> liste = new List<Commande>();
-            string sql = "select * from commandes";
+            string sql = "select * from Commande";
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = new SqlCommand(sql, connection);
 
@@ -91,7 +91,7 @@ namespace AJCSPORT.Models
         public Commande SelectById(int id)
         {
             Commande c = null;
-            string sql = "select * from commandes where id=" + id;
+            string sql = "select * from Commande where id=" + id;
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = new SqlCommand(sql, connection);
 
@@ -105,5 +105,26 @@ namespace AJCSPORT.Models
 
             return c;
         }
+        public List<Commande> SelectByClient(string id)
+        {
+            List<Commande> liste = new List<Commande>();
+            string sql = "select * from Commande where idClient=" + Convert.ToInt32(id);
+            SqlConnection connection = new SqlConnection(connectionString);
+            SqlCommand command = new SqlCommand(sql, connection);
+
+            connection.Open();
+
+            SqlDataReader reader = command.ExecuteReader();
+
+            while (reader.Read())
+            {
+                Commande c = new Commande(reader.GetInt32(0), reader.GetInt32(1), reader.GetDateTime(2), reader.GetDouble(3), reader.GetString(4));
+                liste.Add(c);
+
+            }
+
+            return liste;
+        }
+
     }
 }

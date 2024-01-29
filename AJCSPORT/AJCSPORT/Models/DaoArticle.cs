@@ -26,13 +26,13 @@ namespace AJCSPORT.Models
         }
         public bool Update(Article a)
         {
-            string sql = "update articles set article=@article,description=@description,prix=@prix where idArticle=@idArticle ";
+            string sql = "update Articles set nom=@nom,description=@description,categorie=@categorie,prix=@prix,image=@image where idArticle=@idArticle ";
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = connection.CreateCommand();
             command.CommandText = sql;
 
             command.Parameters.Add("idArticle", SqlDbType.Int).Value = a.Id;
-            command.Parameters.Add("article", SqlDbType.NVarChar).Value = a.Nom;
+            command.Parameters.Add("nom", SqlDbType.NVarChar).Value = a.Nom;
             command.Parameters.Add("description", SqlDbType.NVarChar).Value = a.Description;
             command.Parameters.Add("categorie", SqlDbType.NVarChar).Value = a.Categorie;
             command.Parameters.Add("prix", SqlDbType.Float).Value = a.Prix;
@@ -48,13 +48,13 @@ namespace AJCSPORT.Models
         }
         public bool Insert(Article a)
         {
-            string sql = "insert into Articles values(@idArticle,@article,@description,@categorie,@prix,@image)";
+            string sql = "insert into Articles values(@idArticle,@nom,@description,@categorie,@prix,@image)";
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = connection.CreateCommand();
             command.CommandText = sql;
 
             command.Parameters.Add("idArticle", SqlDbType.Int).Value = a.Id;
-            command.Parameters.Add("article", SqlDbType.NVarChar).Value = a.Nom;
+            command.Parameters.Add("nom", SqlDbType.NVarChar).Value = a.Nom;
             command.Parameters.Add("description", SqlDbType.NVarChar).Value = a.Description;
             command.Parameters.Add("categorie", SqlDbType.NVarChar).Value = a.Categorie;
             command.Parameters.Add("prix", SqlDbType.Float).Value = a.Prix;
@@ -72,7 +72,7 @@ namespace AJCSPORT.Models
         public List<Article> SelectAll()
         {
             List<Article> liste = new List<Article>();
-            string sql = "select * from articles";
+            string sql = "select * from Articles";
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = new SqlCommand(sql, connection);
 
@@ -95,7 +95,7 @@ namespace AJCSPORT.Models
         public Article SelectById(int id)
         {
             Article a = null;
-            string sql = "select * from articles where idArticle=" + id;
+            string sql = "select * from Articles where idArticle=" + id;
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = new SqlCommand(sql, connection);
 

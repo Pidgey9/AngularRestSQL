@@ -1,0 +1,23 @@
+﻿@model List<AJCSPORT.Models.Commande>
+@{
+    ViewBag.Title = "Commandes";
+}
+
+<h2 class="bg-primary">ACHAT DU CLIENT @Model[0].IdClient</h2>
+@foreach (var x in Model)
+{
+    <div>
+        <form method="post" action="/Admin/ArticlesDelete">
+            <table class="container-fluid table-striped">
+                <tr>
+                    <td style="width:10%"><label>COMMANDE : @x.Id</label></td>
+                    <td style="width:10%"><label>CLIENT : @x.IdClient</label></td>
+                    <td style="width:10%"><label>DATE : @x.Date</label></td>
+                    <td style="width:10%"><label>PRIX : @x.PrixTotal euros</label></td>
+                    <td style="width:10%"><label>INFOS : @x.Infos</label></td>
+                    <td style="width:10%"><button type="submit" class="btn-danger" style="margin-left:5px">SUPPRIMER</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+}

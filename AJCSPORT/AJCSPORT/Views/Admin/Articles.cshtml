@@ -2,46 +2,53 @@
 @{
     ViewBag.Title = "Articles";
 }
-
-<h2>Articles</h2>
+@if(Session["erreur"] != null)
+{
+    <p class="text-danger">@ViewBag.error</p>
+}
+<h2 class="bg-primary">AJOUTER UN ARTICLE</h2>
 <div>
     <form method="post" action="/Admin/ArticlesAdd">
-        <input type="number" name="id">
-        <input type="text" name="nom">
-        <input type="text" name="description">
-        <input type="text" name="categorie">
-        <input type="number" name="prix">
-        <input type="text" name="image">
-        <button type="submit">AJOUTER UN ARTICLE</button>
+        <label class="col-sm-3">ID: </label><input type="number" name="id" class="col-sm-3">
+        <label class="col-sm-3">NOM: </label><input type="text" name="nom" class="col-sm-3"><br />
+        <label class="col-sm-3">DESCRIPTION: </label><input type="text" name="description" class="col-sm-3">
+        <label class="col-sm-3">CATEGORY: </label><input type="text" name="categorie" class="col-sm-3"><br />
+        <label class="col-sm-3">PRIX: </label><input type="number" name="prix" class="col-sm-3">
+        <label class="col-sm-3">URL: </label><input type="text" name="image" class="col-sm-3"><br />
+        <button type="submit" class="btn-success">AJOUTER UN ARTICLE</button>
     </form>
 </div>
 <hr />
-<h2>LISTE DES ARTICLES</h2>
+<h2 class="bg-primary">LISTE DES ARTICLES</h2>
 @foreach (var x in Model)
 {
     <div>
         <form method="post" action="/Admin/ArticlesDelete">
-            <input type="number" name="id" value="@x.Id" readonly>
-            <a>@x.Nom</a>
-            <a>@x.Description</a>
-            <a>@x.Categorie</a>
-            <a>@x.Prix</a>
-            <a>@x.Image</a>
-            <button type="submit" formaction="/Admin/Articles">MODIFIER</button>
-            <button type="submit">SUPPRIMER</button>
+            <table class="container-fluid table-striped">
+                <tr>
+                    <td style="width:1%"><input type="number" name="id" value="@x.Id" readonly></td>
+                    <td style="width:10%"><img src="../Images/@x.Image" width="100" height="100"></td>
+                    <td style="width:10%"><label>NOM : @x.Nom</label></td>
+                    <td style="width:40%"><label>DESCRIPTION : @x.Description</label></td>
+                    <td style="width:10%"><label>CATEGORIE : @x.Categorie</label></td>
+                    <td style="width:30%"><label>PRIX : @x.Prix euros</label></td>
+                    <td style="width:10%"><button type="submit" formaction="/Admin/Articles" class="btn-warning" style="margin-left:5px">MODIFIER</button></td>
+                    <td style="width:10%"><button type="submit" class="btn-danger" style="margin-left:5px">SUPPRIMER</button></td>
+                </tr>
+            </table>
         </form>
         @if(ViewBag.article == x.Id)
         {
             <br />
-            <form method="post" action="/Admin/ArticlesUpdate">
-                <input type="number" name="id" value="@x.Id" readonly />
-                <input type="text" name="nom" value="@x.Nom" />
-                <input type="text" name="description" value="@x.Description" />
-                <input type="text" name="categorie" value="@x.Categorie" />
-                <input type="number" name="prix" value="@x.Prix" />
-                <input type="text" name="image" value="@x.Image" />
-                <button type="submit">SAUVEGARDER LES MODIFICATIONS</button>
-
+            <form method="put" action="/Admin/ArticlesUpdate">
+                <label class="col-sm-3">ID (readonly): </label><input type="number" name="id" value="@x.Id" readonly class="col-sm-3" />
+                <label class="col-sm-3">NOM: </label><input type="text" name="nom" value="@x.Nom" class="col-sm-3" />
+                <label class="col-sm-3">DESCRIPTION: </label><input type="text" name="description" value="@x.Description" class="col-sm-3" />
+                <label class="col-sm-3">CATEGORY: </label><input type="text" name="categorie" value="@x.Categorie" class="col-sm-3" />
+                <label class="col-sm-3">PRIX: </label><input type="number" name="prix" value="@x.Prix" class="col-sm-3" />
+                <label class="col-sm-3">URL: </label><input type="text" name="image" value="@x.Image" class="col-sm-3" />
+                <button type="submit" class="btn-danger">SAUVEGARDER LES MODIFICATIONS</button>
+                <button type="submit" formaction="/Admin/Articles" class="btn-warning">FERMER</button>
             </form>
             <br />
         }
