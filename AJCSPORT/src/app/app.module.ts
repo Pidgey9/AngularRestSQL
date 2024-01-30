@@ -1,29 +1,52 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 
-import { FormsModule } from '@angular/forms';
-import {HttpClientModule} from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TestComponent } from './test/test.component';
-import { AdminComponent } from './admin/admin.component';
-import { LoginComponent } from './login/login.component';
-import { InscriptionComponent } from './inscription/inscription.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { HommesComponent } from './hommes/hommes.component';
+import { FemmesComponent } from './femmes/femmes.component';
+import { FormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
+import { CommonModule } from '@angular/common';
+import { AcceuilComponent } from './acceuil/acceuil.component';
+import { DetailcommandeComponent } from './detailcommande/detailcommande.component';
+
+import { HistoriqueCommandeComponent } from './historique-commande/historique-commande.component';
+import { ChatboxComponent } from './chatbox/chatbox.component';
+import { MessageinputComponent } from './messageinput/messageinput.component';
+import { MessageComponent } from './message/message.component';
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent,
-    AdminComponent,
-    LoginComponent,
-    InscriptionComponent
+    HeaderComponent,
+    FooterComponent,
+    HommesComponent,
+    FemmesComponent,
+    AcceuilComponent,
+    DetailcommandeComponent,
+ 
+    HistoriqueCommandeComponent,
+      ChatboxComponent,
+      MessageinputComponent,
+      MessageComponent,
+ 
+  
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    CommonModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
