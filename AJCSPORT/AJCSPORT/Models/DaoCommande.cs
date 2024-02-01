@@ -12,7 +12,7 @@ namespace AJCSPORT.Models
         string connectionString = @"Data Source=DESKTOP-F1NS20D;Initial Catalog=ProjetFinalECommerce;Integrated Security=True";
         public bool Delete(int id)
         {
-            string sql = "delete CSommande where id = " + id;
+            string sql = "delete Commande where id = " + id;
             SqlConnection connection = new SqlConnection(connectionString);
             SqlCommand command = new SqlCommand(sql, connection);
 

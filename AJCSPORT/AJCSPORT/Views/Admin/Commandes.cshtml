@@ -7,10 +7,10 @@
 @foreach (var x in Model)
 {
     <div>
-        <form method="post" action="/Admin/ArticlesDelete">
+        <form method="post" action="/Admin/CommandesDelete">
             <table class="container-fluid table-striped">
                 <tr>
-                    <td style="width:10%"><label>COMMANDE : @x.Id</label></td>
+                    <td style="width:10%"><input type="number" name="id" value="@x.Id" readonly></td>
                     <td style="width:10%"><label>CLIENT : @x.IdClient</label></td>
                     <td style="width:10%"><label>DATE : @x.Date</label></td>
                     <td style="width:10%"><label>PRIX : @x.PrixTotal euros</label></td>

@@ -1,0 +1,95 @@
+<!-- 
+<p>detailcommande</p>
+<div *ngIf="orderLines.length > 0">
+     <h2>Détails de la commande {{ commande.id }}</h2> -->
+    <!-- <h3>Lignes de commande</h3>
+    <ul>
+      <li *ngFor="let line of orderLines">
+   
+        {{ line.idArticle }} - {{ line.nomArticle }}- Quantité: {{ line.quantite }} - Prix unitaire: {{ line.prix }}
+      </li>
+    </ul>
+  </div> 
+  -->
+ 
+ 
+ 
+ 
+  <div class="cart-page mt-100">
+    <div class="container">
+        <div class="cart-page-wrapper">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 col-12">
+                    <table class="cart-table w-100" >
+                        <thead>
+                          <tr >
+                            
+                            <th class="cart-caption heading_18">Articles </th>
+                  
+                            <th class="cart-caption  heading_18 d-none d-md-table-cell text-left">Quantite</th>
+                            <th class="cart-caption text-end heading_18">Prix</th>
+                          </tr>
+                         
+                        </thead>
+          
+                        <tbody>
+                            <tr class="cart-item"  *ngFor="let line of orderLines">
+                            
+                              <td class="cart-item-details">
+                                <div class="mini-img-wrapper">
+                                  <img class="mini-img" src="'/assets/'+line.Article.categorie+'/'+line.Article.image" alt="img">
+                              </div>
+                                <p class="product-title">- {{ line.idArticle }}    - {{ line.nom }}</p>
+                                                                
+                              </td>
+                              <td class="cart-item-quantity">
+                                <div class="quantity d-flex align-items-center justify-content-between">
+                                    {{ line.quantite }} 
+                                </div>
+                                                        
+                              </td>
+                              <td class="cart-item-price text-end">
+                                <div class="product-price">  {{ line.prix }}  </div>                           
+                              </td>                        
+                            </tr>
+                           
+                           
+                        </tbody>
+                      </table>
+                      <button  href="Acceuil" type="button" class="btn btn-dark" style="margin-top: 193px;" (click)="goToPrevious()">Retourner au panier</button>
+                </div>
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="cart-total-area"  *ngIf="orderLines.length > 0">
+                        <h3 class="cart-total-title d-none d-lg-block mb-0">Votre Commande - {{ commandeId }}</h3>
+                        <div class="cart-total-box mt-4">
+                            <div class="subtotal-item subtotal-box">
+                                <h4 class="subtotal-title">Subtotals:  </h4>
+                                <p class="subtotal-value"> {{ subTotal }} €</p>
+                            </div>
+                            <div class="subtotal-item shipping-box">
+                                <h4 class="subtotal-title">Livraison:</h4>
+                                <p class="subtotal-value">0.00  €</p>
+                            </div>
+                            <div class="subtotal-item discount-box">
+                                <h4 class="subtotal-title">Remise:</h4>
+                                <p class="subtotal-value">0.00  €</p>
+                            </div>
+                            <hr>
+                            <div class="subtotal-item discount-box">
+                                <h4 class="subtotal-title">Total:</h4>
+                                <p class="subtotal-value"> {{ subTotal }} €</p>
+                            </div>
+                            <p class="shipping_text">Les frais d'expédition et les taxes sont calculés au moment du paiement</p>
+                            <div class="d-flex justify-content-center mt-4">
+                               
+                                    <button type="button" class="btn btn-dark" routerLink="/historiqueCommande"  (click)="  creerCommande()">Valider la commande</button>
+                            
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

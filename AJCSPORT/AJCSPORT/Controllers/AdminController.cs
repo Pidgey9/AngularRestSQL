@@ -87,6 +87,11 @@ namespace AJCSPORT.Controllers
             liste = new DaoCommande().SelectByClient(id);
             return View(liste);
         }
+        public ActionResult CommandesDelete(int id)
+        {
+            new DaoCommande().Delete(id);
+            return RedirectToAction("Clients");
+        }
 
     }
 }

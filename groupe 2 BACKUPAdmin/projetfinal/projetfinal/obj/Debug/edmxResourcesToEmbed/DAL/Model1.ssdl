@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProjetFinalECommerceModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Articles">
+    <Key>
+      <PropertyRef Name="idArticle" />
+    </Key>
+    <Property Name="idArticle" Type="int" Nullable="false" />
+    <Property Name="nom" Type="nvarchar" MaxLength="50" />
+    <Property Name="description" Type="nvarchar(max)" />
+    <Property Name="categorie" Type="nvarchar" MaxLength="50" />
+    <Property Name="prix" Type="float" />
+    <Property Name="image" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Commande">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="idClient" Type="int" />
+    <Property Name="date" Type="datetime" />
+    <Property Name="prixTotal" Type="float" />
+    <Property Name="infos" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ligneCommande">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="quantite" Type="int" />
+    <Property Name="prix" Type="float" />
+    <Property Name="idCommande" Type="int" />
+    <Property Name="idArticle" Type="int" />
+  </EntityType>
+  <EntityType Name="Utilisateurs">
+    <Key>
+      <PropertyRef Name="login" />
+    </Key>
+    <Property Name="login" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+    <Property Name="nom" Type="nvarchar" MaxLength="50" />
+    <Property Name="prenom" Type="nvarchar" MaxLength="50" />
+    <Property Name="adresse" Type="nvarchar" MaxLength="50" />
+    <Property Name="date_naissance" Type="datetime" />
+    <Property Name="isAdmin" Type="bit" />
+    <Property Name="e_mail" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK__ligneComm__idArt__29572725">
+    <End Role="Articles" Type="Self.Articles" Multiplicity="0..1" />
+    <End Role="ligneCommande" Type="Self.ligneCommande" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Articles">
+        <PropertyRef Name="idArticle" />
+      </Principal>
+      <Dependent Role="ligneCommande">
+        <PropertyRef Name="idArticle" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ligneComm__idCom__2A4B4B5E">
+    <End Role="Commande" Type="Self.Commande" Multiplicity="0..1" />
+    <End Role="ligneCommande" Type="Self.ligneCommande" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Commande">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ligneCommande">
+        <PropertyRef Name="idCommande" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProjetFinalECommerceModelStoreContainer">
+    <EntitySet Name="Articles" EntityType="Self.Articles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Commande" EntityType="Self.Commande" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ligneCommande" EntityType="Self.ligneCommande" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Utilisateurs" EntityType="Self.Utilisateurs" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__ligneComm__idArt__29572725" Association="Self.FK__ligneComm__idArt__29572725">
+      <End Role="Articles" EntitySet="Articles" />
+      <End Role="ligneCommande" EntitySet="ligneCommande" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ligneComm__idCom__2A4B4B5E" Association="Self.FK__ligneComm__idCom__2A4B4B5E">
+      <End Role="Commande" EntitySet="Commande" />
+      <End Role="ligneCommande" EntitySet="ligneCommande" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

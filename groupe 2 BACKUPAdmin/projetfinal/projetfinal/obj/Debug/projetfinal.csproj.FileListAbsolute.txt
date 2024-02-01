@@ -1,0 +1,204 @@
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\projetfinal.dll.config
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\projetfinal.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\projetfinal.pdb
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\csc.exe
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\csc.exe.config
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\csc.rsp
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\csi.exe
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\csi.exe.config
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\csi.rsp
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.AppContext.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Console.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.IO.Compression.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Security.Claims.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.ValueTuple.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\vbc.exe
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\vbc.exe.config
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\vbc.rsp
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\Antlr3.Runtime.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\EntityFramework.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\EntityFramework.SqlServer.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\Newtonsoft.Json.Bson.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\Newtonsoft.Json.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Buffers.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Memory.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Net.Http.Formatting.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Numerics.Vectors.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.Cors.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.Helpers.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.Http.Cors.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.Http.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.Http.WebHost.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.Mvc.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.Optimization.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.Razor.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.WebPages.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.WebPages.Razor.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\WebGrease.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\EntityFramework.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\EntityFramework.SqlServer.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\Newtonsoft.Json.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\Newtonsoft.Json.Bson.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Buffers.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Memory.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Net.Http.Formatting.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Numerics.Vectors.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.Helpers.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.Http.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.Http.Cors.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.Http.WebHost.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.Mvc.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.Razor.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.WebPages.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.WebPages.Razor.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\System.Web.Optimization.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\Antlr3.Runtime.pdb
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\obj\Debug\projetfinal.csprojAssemblyReference.cache
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\obj\Debug\projetfinal.csproj.CoreCompileInputs.cache
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\obj\Debug\projetfinal.csproj.CopyComplete
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\obj\Debug\projetfinal.dll
+C:\Users\Bastien\Documents\Angular\AJCFINAL-master\projetfinal\projetfinal\obj\Debug\projetfinal.pdb
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\projetfinal.dll.config
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\projetfinal.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\projetfinal.pdb
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\csc.exe
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\csc.exe.config
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\csc.rsp
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\csi.exe
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\csi.exe.config
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\csi.rsp
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\Microsoft.Managed.Core.targets
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.AppContext.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Collections.Immutable.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Console.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.IO.Compression.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.IO.FileSystem.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.IO.Pipes.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Reflection.Metadata.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Security.AccessControl.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Security.Claims.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Security.Principal.Windows.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.ValueTuple.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Xml.XmlDocument.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Xml.XPath.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\vbc.exe
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\vbc.exe.config
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\vbc.rsp
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\VBCSCompiler.exe
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\roslyn\VBCSCompiler.exe.config
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\Antlr3.Runtime.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\EntityFramework.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\EntityFramework.SqlServer.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\Microsoft.Web.Infrastructure.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\Newtonsoft.Json.Bson.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\Newtonsoft.Json.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Buffers.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Memory.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Net.Http.Formatting.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Numerics.Vectors.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Threading.Tasks.Extensions.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.Cors.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.Helpers.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.Http.Cors.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.Http.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.Http.WebHost.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.Mvc.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.Optimization.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.Razor.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.WebPages.Deployment.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.WebPages.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.WebPages.Razor.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\WebGrease.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\EntityFramework.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\EntityFramework.SqlServer.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\Newtonsoft.Json.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\Newtonsoft.Json.Bson.pdb
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\Newtonsoft.Json.Bson.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Buffers.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Memory.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Net.Http.Formatting.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Numerics.Vectors.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Threading.Tasks.Extensions.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.Helpers.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.Http.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.Http.Cors.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.Http.WebHost.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.Mvc.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.Razor.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.WebPages.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.WebPages.Deployment.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.WebPages.Razor.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\System.Web.Optimization.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\Antlr3.Runtime.pdb
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\obj\Debug\projetfinal.csprojAssemblyReference.cache
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\obj\Debug\projetfinal.csproj.CoreCompileInputs.cache
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\obj\Debug\projetfinal.csproj.CopyComplete
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\obj\Debug\projetfinal.dll
+D:\GitHub\AngularRestSQL\groupe 2 BACKUPAdmin\projetfinal\projetfinal\obj\Debug\projetfinal.pdb
